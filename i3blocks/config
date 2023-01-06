@@ -1,0 +1,30 @@
+align=center
+separator=false
+color=#f8f8f2
+separator_block_width=15
+min_width=10
+markup=pango
+
+[DISK]
+command=df -h / | awk '/\//{ printf(" 💾%4s \n", $4 ) }'
+interval=30
+color=#C9E3DB
+separator=2
+
+[BATTERY]
+command=~/.config/i3blocks/battery/battery_info.sh
+interval=10
+color=#C9E3DB
+separator=2
+
+
+[cpu_usage2]
+command=~/.config/i3blocks/i3blocks-contrib/cpu_usage2/cpu_usage2
+markup=pango
+interval=persist
+urgent=1
+separator=1
+
+[TIME_DATE]
+command=date +" %a, - %H:%M:%S"
+interval=1

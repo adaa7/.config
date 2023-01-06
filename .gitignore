@@ -1,0 +1,15 @@
+/*
+/*/
+
+!/.git
+!/.gitignore
+!/i3
+!/i3blocks
+!/picom
+!/nvim
+
+
+!/fcitx5/
+!/zsh
+!/fcitx5/
+/fcitx5/crash.log
