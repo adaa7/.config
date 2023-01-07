@@ -26,5 +26,5 @@ urgent=1
 separator=1
 
 [TIME_DATE]
-command=date +" %a, - %H:%M:%S"
+command=date +"%H:%M:%S - %a:"
 interval=1

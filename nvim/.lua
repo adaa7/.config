@@ -1,5 +1,6 @@
 --导入packer
-require('init-packer')
+--[3/3] spawn: unzip failed with exit code - and signal -. unzip is not executable
+require('init-packer')	
 -- 导入配置文件
 require('init-local') 
 --导入键盘映射
