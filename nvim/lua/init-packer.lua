@@ -19,15 +19,20 @@ return require('packer').startup(function(use)
   --跳行
   use 'ggandor/leap.nvim'
   -- 自动注释用（gcc）
-  use 'numToStr/Comment.nvim'
-
+  use {
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+}
   -- 自动补充后一半的括号
   use {
 	"windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
 }
   --------------------- LSP --------------------
-  use("williamboman/nvim-lsp-installer")
+ use({ "williamboman/mason.nvim" })
+ use({ "williamboman/mason-lspconfig.nvim" })
   -- Lspconfig
   use({ "neovim/nvim-lspconfig" })
  -- 补全引擎

@@ -30,7 +30,7 @@ db.custom_center = {
   {
     icon = "  ",
     desc = "Edit Projects                       ",
-    action = "edit ~/.local/share/nvim/project_nvim/project_history",
+    action = "edit ~/.config/nvim/init.lua",
   },
   -- {
   --   icon = "  ",

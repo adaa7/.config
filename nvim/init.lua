@@ -1,7 +1,7 @@
 --导入packer
 require('init-packer')
 -- 导入配置文件
-require('init-local') 
+require('init-local')
 --导入键盘映射
 require('init-keymaps')
 -- 主题设置 （新增）
