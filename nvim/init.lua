@@ -2,10 +2,13 @@
 require('init-packer')
 -- 导入配置文件
 require('init-local')
---导入键盘映射
-require('init-keymaps')
--- 主题设置 （新增）
+--导入键盘映射 require('init-keymaps') 
+--主题设置 （新增）
 require("colorscheme")
+
+--一键编译f7
+
+
 -- 插件配置
 -- 侧边栏
 require("plugin-config.nvim-tree")
@@ -29,8 +32,8 @@ require('nvim-autopairs')
 -- 内置LSP (新增)
 require("lsp.setup")
 require("lsp.cmp")
-require("lsp.ui") -- 新增
-require("plugin-config.indent-blankline")
+require("lsp.ui") 
+--require("plugin-config.indent-blankline")
 
 
 --require('leap').add_default_mappings()              

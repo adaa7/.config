@@ -42,7 +42,7 @@ bindsym $mod+F12 exec amixer set Master toggle
 
 
 # 更改的键位
-bindsym $mod+c exec chromium
+bindsym $mod+p exec chromium
 
 
 

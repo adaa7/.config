@@ -8,7 +8,13 @@ map("n", "<A-h>", "<C-w>h", opt)
 map("n", "<A-j>", "<C-w>j", opt)
 map("n", "<A-k>", "<C-w>k", opt)
 map("n", "<A-l>", "<C-w>l", opt)
-map("n", "<C-s>", ":w<CR>", opt)
+--更改快捷键
+map("n", "<C-q>", ":q!<CR>", opt)
+map("i", "<C-s>", "<C-c>:w<CR>", opt)
+map("i", "<C-v>", "<ESC><C-v>", opt)
+
+
+map("n", "<C-n>", "<ESC>:w<CR>:split<CR>:te gcc -std=c11 -Wshadow -Wall -o %:t:r.out % -g  && time ./%:t:r.out<CR>i", opt)
 
 -- Terminal相关
 map("n", "<leader>t", ":sp | terminal<CR>", opt)
