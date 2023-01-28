@@ -70,7 +70,12 @@ pluginKeys.cmp = function(cmp)
     }
 end
 
+--leap光标移动插件
 
+require('leap').opts.highlight_unlabeled_phase_one_targets = true
+vim.keymap.set({'x', 'o', 'n'}, 'f', '<Plug>(leap-forward-to)')
+vim.keymap.set({'x', 'o', 'n'}, 'F', '<Plug>(leap-backward-to)')
+vim.keymap.set({'x', 'o', 'n'}, 'gf', '<Plug>(leap-cross-window)')
 
 -- nvim-tree
 -- alt + m 键打开关闭tree

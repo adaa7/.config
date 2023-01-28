@@ -8,7 +8,6 @@ require("colorscheme")
 
 --一键编译f7
 
-
 -- 插件配置
 -- 侧边栏
 require("plugin-config.nvim-tree")
@@ -33,11 +32,8 @@ require('nvim-autopairs')
 require("lsp.setup")
 require("lsp.cmp")
 require("lsp.ui") 
---require("plugin-config.indent-blankline")
+require("plugin-config.indent-blankline")
 
 
 --require('leap').add_default_mappings()              
-require('leap').opts.highlight_unlabeled_phase_one_targets = true
-vim.keymap.set({'x', 'o', 'n'}, 'f', '<Plug>(leap-forward-to)')
-vim.keymap.set({'x', 'o', 'n'}, 'F', '<Plug>(leap-backward-to)')
-vim.keymap.set({'x', 'o', 'n'}, 'gf', '<Plug>(leap-cross-window)')
+
