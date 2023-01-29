@@ -1,38 +1,18 @@
 [Groups/0]
 # Group Name
-Name="Group 1"
+Name="Group 4"
 # Layout
-Default Layout=us
+Default Layout=cn-mon_manchu_galik
 # Default Input Method
-DefaultIM=pinyin
+DefaultIM=keyboard-cn-mon_manchu_galik
 
 [Groups/0/Items/0]
 # Name
-Name=keyboard-us
-# Layout
-Layout=
-
-[Groups/0/Items/1]
-# Name
-Name=pinyin
+Name=keyboard-cn-mon_manchu_galik
 # Layout
 Layout=
 
 [Groups/1]
-# Group Name
-Name="Group 2"
-# Layout
-Default Layout=cn
-# Default Input Method
-DefaultIM=keyboard-cn
-
-[Groups/1/Items/0]
-# Name
-Name=keyboard-cn
-# Layout
-Layout=
-
-[Groups/2]
 # Group Name
 Name="Group 3"
 # Layout
@@ -40,23 +20,43 @@ Default Layout=cn-mon_trad
 # Default Input Method
 DefaultIM=keyboard-cn-mon_trad
 
-[Groups/2/Items/0]
+[Groups/1/Items/0]
 # Name
 Name=keyboard-cn-mon_trad
 # Layout
 Layout=
 
+[Groups/2]
+# Group Name
+Name="Group 2"
+# Layout
+Default Layout=cn
+# Default Input Method
+DefaultIM=keyboard-cn
+
+[Groups/2/Items/0]
+# Name
+Name=keyboard-cn
+# Layout
+Layout=
+
 [Groups/3]
 # Group Name
-Name="Group 4"
+Name="Group 1"
 # Layout
-Default Layout=cn-mon_manchu_galik
+Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-cn-mon_manchu_galik
+DefaultIM=pinyin
 
 [Groups/3/Items/0]
 # Name
-Name=keyboard-cn-mon_manchu_galik
+Name=keyboard-us
+# Layout
+Layout=
+
+[Groups/3/Items/1]
+# Name
+Name=pinyin
 # Layout
 Layout=
 

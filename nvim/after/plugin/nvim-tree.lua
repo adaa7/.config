@@ -6,7 +6,7 @@ end
 
 
 -- 列表操作快捷键
-local list_keys = require('init-keymaps').nvimTreeList
+local list_keys = require('keymaps').nvimTreeList
 nvim_tree.setup({
     -- 不显示 git 状态图标
     git = {
@@ -26,7 +26,7 @@ nvim_tree.setup({
     },
     view = {
         -- 宽度
-        width = 40,
+        width = 30,
         -- 也可以 'right'
         side = 'left',
         -- 隐藏根目录
