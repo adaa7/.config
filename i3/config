@@ -36,9 +36,9 @@ exec --no-startup-id fcitx5 -d
 
 
 # amixer shen yin
-bindsym $mod+F11 exec amixer set Master 5%+
-bindsym $mod+F10 exec amixer set Master 5%-
-bindsym $mod+F12 exec amixer set Master toggle
+bindsym $mod+i exec amixer set Master 5%+
+bindsym $mod+u exec amixer set Master 5%-
+bindsym $mod+o exec amixer set Master toggle
 
 
 # 更改的键位

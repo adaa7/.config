@@ -137,12 +137,12 @@ nnoremap - <C-x>
 " Open current directory
 "nmap te :tabedit
 "nmap <S-Tab> :tabprev<Return>
-nmap <S-Tab> :bprev<Return>
+"nmap <S-Tab> :bprev<Return>
 "nmap <Tab> :tabnext<Return>
-nmap <Tab> :bnext<Return>
+"nmap <Tab> :bnext<Return>
 " 窗口管理器
 " invoke with '-'
-nmap  -  <Plug>(choosewin)
+"nmap  -  <Plug>(choosewin)
 "nmap  sw  <Plug>(choosewin)
 "nmap  <leader>w  <Plug>(choosewin)
 "-------------------------------------------------------------------------------

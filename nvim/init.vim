@@ -6,6 +6,7 @@ runtime ./vimrc.vim
 "./lua/plugins.lua
 lua require('plugins')
 lua require('nvim-tree')
+lua require('dashboard')
 " 按键映射 
 runtime ./maps.vim
 "加载优先级
@@ -15,4 +16,3 @@ source ~/.config/nvim/after/plugin/airline.rc.vim
 source ~/.config/nvim/colors/gruvbox_material.rc.vim
 "彩虹括号
 source ~/.config/nvim/after/plugin/rainbow.rc.vim
-

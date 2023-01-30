@@ -26,7 +26,7 @@ use {
     }
 }
 -- 加速文件搜索速度,如果安装失败需要到插件目录执行make命令手动编译
--- 用了这个插件以后，貌似更快了(感觉输入更跟手了，可能是心理作用)。但是对于我的小项目感受不是很明显
+-- 用了这个插件以后，貌似更快了(感觉输入更跟手了，可能是心理作用)。
 use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"} 
 
 -- 显示css的颜色代码的颜色
@@ -42,6 +42,9 @@ use "windwp/nvim-autopairs"
 use 'luochen1990/rainbow'
 --注释插件
 use "b3nj5m1n/kommentary"
+
+--开场UI
+use("glepnir/dashboard-nvim")
 --jsx注释
 use "JoosepAlviste/nvim-ts-context-commentstring"
   -- indent-blankline

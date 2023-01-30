@@ -10,6 +10,7 @@ vim.keymap.set({'x', 'o', 'n'}, 'f', '<Plug>(leap-forward-to)')
 vim.keymap.set({'x', 'o', 'n'}, 'F', '<Plug>(leap-backward-to)')
 vim.keymap.set({'x', 'o', 'n'}, 'gf', '<Plug>(leap-cross-window)')
 
+map("n", "<C-n>", "<ESC>:w<CR>:split<CR>:te gcc -std=c11 -Wshadow -Wall -o %:t:r.out % -g  && time ./%:t:r.out<CR>i", opt)
 -- nvim-tree
 -- alt + m 键打开关闭tree
 map("n", "<leader>e", ":NvimTreeToggle<CR>", opt)
