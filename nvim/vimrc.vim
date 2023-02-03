@@ -9,7 +9,7 @@ set nu
 " 相对行号
 set relativenumber
 "显示左侧图标指示列
-"set signcolumn =yes
+set signcolumn =yes
 "右侧参考线，超过表示代码太长了，考虑换行
 set colorcolumn =120
 "split window 从下边和右边出现

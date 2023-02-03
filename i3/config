@@ -16,6 +16,14 @@ new_window none
 new_float normal
 hide_edge_borders both
 
+
+for_window [class="QQ"] floating enable
+for_window [class="Qv2ray"] floating enable
+for_window [class="feh"] floating enable
+for_window [class="listen1"] floating enable
+for_window [class="百度网盘"] floating enable
+
+
 #设置窗口间隙
 gaps inner 8
 
@@ -26,13 +34,10 @@ gaps inner 8
 #-------------------------------
 #-------------------------------
 
-exec --no-startup-id feh --bg-center ~/Pictures/wallpaper/135.jpg
+exec --no-startup-id feh --bg-fell ~/Pictures/wallpaper/maonian.jpg
 exec --no-startup-id picom
 exec --no-startup-id flameshot &
 exec --no-startup-id fcitx5 -d
-
-# exec_always --no-startup-id ~/scripts/inverse-scroll.sh
-# exec_always --no-startup-id ~/scripts/tap-to-click.sh
 
 
 # amixer shen yin
@@ -84,7 +89,10 @@ floating_modifier $mod
 #tiling_drag modifier titlebar
 
 # start a terminal
+#for_window [class="st"] floating enable resize set 640 480,move right 330px,move down 70px
 bindsym $mod+Return exec st
+bindsym $mod+Shift+Return exec --no-startup-id st -i -g 130×40 -f "Jetbrains Mono:pixelsize=18:antialias=true:autohint=true"
+
 
 # kill focused window
 bindsym $mod+q kill
@@ -226,8 +234,7 @@ bar {
         position top        
         font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
         font pango:DejaVu Sans Mono 13
-
-#显示多work
+	    #显示多work
         workspace_buttons yes 
         workspace_min_width 20
 
