@@ -1,12 +1,14 @@
-" 配置文件导入 "{{{
-" ---------------------------------------------------------------------
+" 配置文件导入 
+"---------------------------------------------------------------------
 " 基础使用习惯配置
-runtime ./vimrc.vim
+runtime vimrc.vim
 " 插件管理
 "./lua/plugins.lua
 lua require('plugins')
 lua require('nvim-tree')
 lua require('dashboard')
+"lua require('nvim-lastplace')
+lua require('dap.dap-run')
 " 按键映射 
 runtime ./maps.vim
 "加载优先级
